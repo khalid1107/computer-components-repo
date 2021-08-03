@@ -1,507 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="2.png" alt="" width="80" height="80"> <h4>Game Snap</h4>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          All
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Price Filter</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Today's Deals</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Customer Service</a>
-                  </li>
-                  
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+                <a class="navbar-brand" href="#"><img src="2.png" alt="" width="80" height="80">
+                    <h4>Game Snap</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                All
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Price Filter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Today's Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Customer Service</a>
+                        </li>
 
-          <section class="container mt-5">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row  d-flex align-items-center p-5" style="background-color: #fdfdfd38;">
-                      <div class="col-lg-5">
-                          <h1>RTX 3090</h1>
-                          <p>
-                            The GeForce RTX™ 3090 is a big ferocious GPU (BFGPU) with TITAN class performance. It’s powered by Ampere—NVIDIA’s 2nd gen RTX architecture—doubling down on ray tracing and AI performance with enhanced Ray Tracing (RT) Cores, Tensor Cores, and new streaming multiprocessors. Plus, it features a staggering 24 GB of G6X memory, all to deliver the ultimate gaming experience.</p>
-                              <h5>STARTING AT $1,499.00</h5>
-                              <div class="btn btn-success">Buy Now</div>
-                      </div>
-                      <div class="col-lg-5">
-                          <img src="slider/1.png" class="d-block w-100 slider-img rtx" alt="...">
-                      </div>
-                  </div>
-  
-  
-                  
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
-                <div class="carousel-item">
-                  <div class="row  d-flex align-items-center p-5" style="background-color: #fdfdfd38;">
-                      <div class="col-lg-5" >
-                          <h1>iCUE H60i RGB PRO</h1>
-                          <p>
-                              
-                            The CORSAIR iCUE H60i RGB PRO XT is an all-in-one liquid CPU cooler built for both low noise operation and improved CPU cooling, with a 120mm radiator, a CORSAIR ML120 PWM fan, and 16 RGB LEDs</p>
-                              <h1>STARTING AT $99.99</h1>
-                              <div class="btn btn-success">Buy Now</div>
-                      </div>
-                      <div class="col-lg-5">
-                          <img src="slider/2.png" class="d-block w-100 slider-img" alt="...">
-                      </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row  d-flex align-items-center p-5" style="background-color: #fdfdfd38;">
-                      <div class="col-lg-5">
-                          <h1>G733 GAMING HEADSET</h1>
-                          <p>
-                            Finally, a headset that can be as expressive as you. G733 is wireless and designed for comfort. And it’s outfitted with all the surround sound, voice filters, and advanced lighting you need to look, sound, and play with more style than ever.</p>
-                              <h1>STARTING AT $129.99</h1>
-                              <div class="btn btn-success">Buy Now</div>
-                      </div>
-                      <div class="col-lg-5">
-                          <img src="slider/3.png" class="d-block w-100 slider-img" alt="...">
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
-          </section>
+        </nav>
+
+        <section class="container mt-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row  d-flex align-items-center p-5" style="background-color: #fdfdfd38;">
+                            <div class="col-lg-5">
+                                <h1>RTX 3090</h1>
+                                <p>
+                                    The GeForce RTX™ 3090 is a big ferocious GPU (BFGPU) with TITAN class performance.
+                                    It’s powered by Ampere—NVIDIA’s 2nd gen RTX architecture—doubling down on ray
+                                    tracing and AI performance with enhanced Ray Tracing (RT) Cores, Tensor Cores, and
+                                    new streaming multiprocessors. Plus, it features a staggering 24 GB of G6X memory,
+                                    all to deliver the ultimate gaming experience.</p>
+                                <h5>STARTING AT $1,499.00</h5>
+                                <div class="btn btn-success">Buy Now</div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="slider/1.png" class="d-block w-100 slider-img rtx" alt="...">
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row  d-flex align-items-center p-5" style="background-color: #fdfdfd38;">
+                            <div class="col-lg-5">
+                                <h1>iCUE H60i RGB PRO</h1>
+                                <p>
+
+                                    The CORSAIR iCUE H60i RGB PRO XT is an all-in-one liquid CPU cooler built for both
+                                    low noise operation and improved CPU cooling, with a 120mm radiator, a CORSAIR ML120
+                                    PWM fan, and 16 RGB LEDs</p>
+                                <h1>STARTING AT $99.99</h1>
+                                <div class="btn btn-success">Buy Now</div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="slider/2.png" class="d-block w-100 slider-img" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row  d-flex align-items-center p-5" style="background-color: #fdfdfd38;">
+                            <div class="col-lg-5">
+                                <h1>G733 GAMING HEADSET</h1>
+                                <p>
+                                    Finally, a headset that can be as expressive as you. G733 is wireless and designed
+                                    for comfort. And it’s outfitted with all the surround sound, voice filters, and
+                                    advanced lighting you need to look, sound, and play with more style than ever.</p>
+                                <h1>STARTING AT $129.99</h1>
+                                <div class="btn btn-success">Buy Now</div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="slider/3.png" class="d-block w-100 slider-img" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
     </header>
     <main>
-      <section class=" container mt-5">
-        <h2 class="mb-5" style="color: white;">Essentials for Gamers </h2>
-        <div class="card-items gy-5  row justify-content-center ">
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card border-0" style="width: 18rem;">
-              <img src="products/3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Pc Components</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-success">See All</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card border-0" style="width: 18rem;">
-              <img src="products/2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Headsets</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-success">See All</a>
-              </div>
-            </div>
-          </div>
-         <div class="col-lg-3 col-md-6 products-items">
-          <div class="card border-0" style="width: 18rem;">
-            <img src="products/1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Laptops</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-success">See All</a>
-            </div>
-          </div>
-         </div>
-         <div class="col-lg-3 col-md-6 products-items">
-          <div class="card border-0" style="width: 18rem;">
-            <img src="products/4.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Gamepads</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-success">See All</a>
-            </div>
-          </div>
-         </div>
-         
-        </div>
-      </section>
-      <section class="container mt-5">
-        <h2 style="color: white;">Pre-built PCs</h2>
-        <div class="pre-built row gy-5">
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card pc" style="width: 18rem;">
-              <img src="pre/2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">AMD Ryzen 5 3600 Gaming PC</h5>
-                
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Model: AMD Ryzen 5 3600</li>
-                <li class="list-group-item">Asrock B450M Pro4-F AMD Motherboard</li>
-                <li class="list-group-item">AMD Ryzen 5 3600 Processor</li>
-                <li class="list-group-item">8GB 2400MHz RAM + 128GB SSD</li>
-                <li class="list-group-item">GeForce GTX 1050Ti 4GB Graphics Card</li>
-              </ul>
-              <footer>
-              <div class="card-body">
-                <p>70,300৳</p>
-                <a href="#" class="btn btn-success">Buy Now</a>
-              </div>
-            </footer>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card pc" style="width: 18rem;">
-              <img src="pre/1.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">AMD Ryzen 5 3500X Gaming PC</h5>
-               
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Model: AMD Ryzen 5 3500X</li>
-                <li class="list-group-item">ASROCK B450M-HDV R4.0 AMD B450 Chipset Motherboard</li>
-                <li class="list-group-item">AMD RYZEN 5 3500X Processor</li>
-                <li class="list-group-item">8GB 2400MHz RAM + 128GB SSD</li>
-                <li class="list-group-item">GeForce GTX 1050Ti 4GB Graphics</li>
-              </ul>
-              <footer>
-                <div class="card-body">
-                  <p>64,500৳</p>
-                  <a href="#" class="btn btn-success">Buy Now</a>
+        <section class=" container mt-5">
+            <h2 class="mb-5" style="color: white;">Essentials for Gamers </h2>
+            <div class="card-items gy-5  row justify-content-center ">
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card border-0" style="width: 18rem;">
+                        <img src="products/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pc Components</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-success">See All</a>
+                        </div>
+                    </div>
                 </div>
-              </footer>
-             
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card pc" style="width: 18rem;">
-              <img src="pre/4.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">AMD Ryzen 5 3600X Gaming PC</h5>
-                
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Model: AMD Ryzen 5 3600X</li>
-                <li class="list-group-item">Asrock B450M Pro4-F AMD Motherboard</li>
-                <li class="list-group-item">AMD Ryzen 5 3600X Processor</li>
-                <li class="list-group-item">8GB 2400MHz RAM + 256GB SSD</li>
-                <li class="list-group-item">GTX 1660 SUPER SC ULTRA GAMING 6GB Graphics</li>
-              </ul>
-              <footer>
-              <div class="card-body">
-                <p>96,500৳</p>
-                <a href="#" class="btn btn-success">Buy Now</a>
-              </div>
-            </footer>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card pc" style="width: 18rem;">
-              <img src="pre/5.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Intel 10th Gen Core i3-10100 Gaming PC</h5>
-                
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Model: Intel 10th Gen Core i3-10100 Gaming PC</li>
-                <li class="list-group-item">ASRock H470M-HDV 10th and 11th Gen Intel M-ATX Motherboard</li>
-                <li class="list-group-item">Intel i3-10100 10th Gen Processor</li>
-                <li class="list-group-item">4GB 2400MHz RAM +1TB HDD</li>
-                <li class="list-group-item">Asus GeForce GT 710 2GB DDR5 Graphics Card</li>
-              </ul>
-              <footer>
-              <div class="card-body">
-                <p>36,100৳</p>
-                <a href="#" class="btn btn-success">Buy Now</a>
-              </div>
-            </footer>
-            </div>
-          </div>
-          
-        </div>
-      </section>
-      <section class="products container mt-5">
-        <h2 style="color: white;">Featured Products</h2>
-        <div class="row gy-5">
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-            <img src="fpro/1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Apple MacBook Air 13.3-Inch Retina Display 8-core Apple M1 chip with 8GB RAM, 256GB SSD</p>
-              <footer>
-              <h5>110,000৳</h5>
-            </footer>
-            </div>
-          </div>
-        </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Apple MacBook Pro 13.3-Inch Retina Display 8-core Apple M1 chip with 8GB RAM, 256GB SSD</p>
-                <footer>
-                <h5>138,000৳</h5>
-              </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Apple iMac 24" 4K Retina Display M1 8 Core CPU, 8 Core GPU, 256GB SSD, Green (MGPH3ZP/A)</p>
-                <footer>
-                <h5>185,000৳</h5>
-              </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/4.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Apple iPad Pro M1 2021 MHQT3ZP/A 11 inch Wi-Fi 128GB Silver</p>
-                <footer>
-                <h5>95,000৳</h5>
-              </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/5.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Ergonomic M8 Double Arm Monitor Desk Mount Stand With Cable Management</p>
-                <footer>
-                <h5>7,500৳</h5>
-              </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/6.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">EVOLUR LD001 Gaming Chair Red</p>
-                <footer>
-                <h5>13,500৳</h5>
-              </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/7.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Rolling Laptop Table with Wheels Adjustable Folding Computer Desk Stand</p>
-                <footer>
-                  <h5>3,200৳</h5>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/8.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Western Digital 10TB Purple Surveillance HDD</p>
-                <footer>
-                  <h5>29,000৳</h5>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/9.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Xiaomi MI 4A Horizon Edition 43" Full HD Smart TV</p>
-                <footer>
-                  <h5>35,000৳</h5>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/10.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Gamdias Mars M1 Mid Tower Gaming Casing</p>
-                <footer>
-                  <h5>5,000৳</h5>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/11.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">ASRock B560M Steel Legend 10th and 11th Gen Micro ATX Motherboard</p>
-                <footer>
-                  <h5>14,500৳</h5>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/12.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">TEAM NIGHT HAWK UD 8GB 3200MHz RGB DDR4 Desktop RAM</p>
-                <footer>
-                  <h5>5,900৳</h5>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/13.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Antec NX220 Mid Tower Gaming Case</p>
-                <footer>
-                  <h5>3,550৳</h5>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/14.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Razer Viper Ambidextrous Gaming Mouse</p>
-                <footer>
-                  <h5>6,000৳</h5>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/15.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">MaxGreen MG-LI-EAM-1200VA Offline UPS (Metal)</p>
-                <footer>
-                  <h5>5,200৳
-                  </h5>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 products-items">
-            <div class="card" style="width: 18rem;">
-              <img src="fpro/16.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">EVGA GeForce GTX 1660 SUPER SC ULTRA GAMING 6GB GDDR6 Graphics Card</p>
-                <footer>
-                  <h5>48,500৳</h5>
-                </footer>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="featured-cata container mt-5">
-        <h1>Featured Category</h1>
-        <h5>Get Your Desired Product from Featured Category!</h5>
-        <div class="cata-items">
-          <div class="cata-item"><img src="cata/1.png" alt="">
-            <p>Desktop</p>
-          </div>
-          <div class="cata-item"><img src="cata/2.png" alt="">
-            <p>All Laptop</p>
-          </div>
-          <div class="cata-item"><img src="cata/3.png" alt="">
-            <p>Component</p>
-          </div>
-          <div class="cata-item"><img src="cata/4.png" alt="">
-            <p>Monitor</p>
-          </div>
-          <div class="cata-item"><img src="cata/5.png" alt="">
-            <p>Security</p>
-          </div>
-          <div class="cata-item"><img src="cata/6.png" alt="">
-            <p>Tablet</p>
-          </div>
-          <div class="cata-item"><img src="cata/7.png" alt="">
-            <p>Office Equipment
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card border-0" style="width: 18rem;">
+                        <img src="products/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Headsets</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-success">See All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card border-0" style="width: 18rem;">
+                        <img src="products/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laptops</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-success">See All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card border-0" style="width: 18rem;">
+                        <img src="products/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gamepads</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-success">See All</a>
+                        </div>
+                    </div>
+                </div>
 
-            </p>
-          </div>
-          <div class="cata-item"><img src="cata/8.png" alt="">
-            <p>Camera</p>
-          </div>
-          <div class="cata-item"><img src="cata/9.png" alt="">
-            <p>Networking</p>
-          </div>
-          <div class="cata-item"><img src="cata/10.png" alt="">
-            <p>Accessories</p>
-          </div>
-          <div class="cata-item"><img src="cata/11.png" alt="">
-            <p>Software</p>
-          </div>
-          <div class="cata-item"><img src="cata/12.png" alt="">
-            <p>Server & Storage</p>
-          </div>
-          <div class="cata-item"><img src="cata/13.png" alt="">
-            <p>TV</p>
-          </div>
-          <div class="cata-item"><img src="cata/14.png" alt="">
+            </div>
+        </section>
+        <section class="container mt-5">
+            <h2 style="color: white;">Pre-built PCs</h2>
+            <div class="pre-built row gy-5">
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card pc" style="width: 18rem;">
+                        <img src="pre/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">AMD Ryzen 5 3600 Gaming PC</h5>
 
-            <p>AC</p>
-           </div>
-          <div class="cata-item"><img src="cata/15.png" alt="">
-            <p>Gadget</p>
-          </div>
-          <div class="cata-item"><img src="cata/16.png" alt="">
-            <p>Gaming</p>
-          </div>
-        </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Model: AMD Ryzen 5 3600</li>
+                            <li class="list-group-item">Asrock B450M Pro4-F AMD Motherboard</li>
+                            <li class="list-group-item">AMD Ryzen 5 3600 Processor</li>
+                            <li class="list-group-item">8GB 2400MHz RAM + 128GB SSD</li>
+                            <li class="list-group-item">GeForce GTX 1050Ti 4GB Graphics Card</li>
+                        </ul>
+                        <footer>
+                            <div class="card-body">
+                                <p>70,300৳</p>
+                                <a href="#" class="btn btn-success">Buy Now</a>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card pc" style="width: 18rem;">
+                        <img src="pre/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">AMD Ryzen 5 3500X Gaming PC</h5>
+
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Model: AMD Ryzen 5 3500X</li>
+                            <li class="list-group-item">ASROCK B450M-HDV R4.0 AMD B450 Chipset Motherboard</li>
+                            <li class="list-group-item">AMD RYZEN 5 3500X Processor</li>
+                            <li class="list-group-item">8GB 2400MHz RAM + 128GB SSD</li>
+                            <li class="list-group-item">GeForce GTX 1050Ti 4GB Graphics</li>
+                        </ul>
+                        <footer>
+                            <div class="card-body">
+                                <p>64,500৳</p>
+                                <a href="#" class="btn btn-success">Buy Now</a>
+                            </div>
+                        </footer>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card pc" style="width: 18rem;">
+                        <img src="pre/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">AMD Ryzen 5 3600X Gaming PC</h5>
+
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Model: AMD Ryzen 5 3600X</li>
+                            <li class="list-group-item">Asrock B450M Pro4-F AMD Motherboard</li>
+                            <li class="list-group-item">AMD Ryzen 5 3600X Processor</li>
+                            <li class="list-group-item">8GB 2400MHz RAM + 256GB SSD</li>
+                            <li class="list-group-item">GTX 1660 SUPER SC ULTRA GAMING 6GB Graphics</li>
+                        </ul>
+                        <footer>
+                            <div class="card-body">
+                                <p>96,500৳</p>
+                                <a href="#" class="btn btn-success">Buy Now</a>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card pc" style="width: 18rem;">
+                        <img src="pre/5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Intel 10th Gen Core i3-10100 Gaming PC</h5>
+
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Model: Intel 10th Gen Core i3-10100 Gaming PC</li>
+                            <li class="list-group-item">ASRock H470M-HDV 10th and 11th Gen Intel M-ATX Motherboard</li>
+                            <li class="list-group-item">Intel i3-10100 10th Gen Processor</li>
+                            <li class="list-group-item">4GB 2400MHz RAM +1TB HDD</li>
+                            <li class="list-group-item">Asus GeForce GT 710 2GB DDR5 Graphics Card</li>
+                        </ul>
+                        <footer>
+                            <div class="card-body">
+                                <p>36,100৳</p>
+                                <a href="#" class="btn btn-success">Buy Now</a>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="products container mt-5">
+            <h2 style="color: white;">Featured Products</h2>
+            <div class="row gy-5">
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Apple MacBook Air 13.3-Inch Retina Display 8-core Apple M1 chip with
+                                8GB RAM, 256GB SSD</p>
+                            <footer>
+                                <h5>110,000৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Apple MacBook Pro 13.3-Inch Retina Display 8-core Apple M1 chip with
+                                8GB RAM, 256GB SSD</p>
+                            <footer>
+                                <h5>138,000৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Apple iMac 24" 4K Retina Display M1 8 Core CPU, 8 Core GPU, 256GB SSD,
+                                Green (MGPH3ZP/A)</p>
+                            <footer>
+                                <h5>185,000৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Apple iPad Pro M1 2021 MHQT3ZP/A 11 inch Wi-Fi 128GB Silver</p>
+                            <footer>
+                                <h5>95,000৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Ergonomic M8 Double Arm Monitor Desk Mount Stand With Cable Management
+                            </p>
+                            <footer>
+                                <h5>7,500৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">EVOLUR LD001 Gaming Chair Red</p>
+                            <footer>
+                                <h5>13,500৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Rolling Laptop Table with Wheels Adjustable Folding Computer Desk Stand
+                            </p>
+                            <footer>
+                                <h5>3,200৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Western Digital 10TB Purple Surveillance HDD</p>
+                            <footer>
+                                <h5>29,000৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Xiaomi MI 4A Horizon Edition 43" Full HD Smart TV</p>
+                            <footer>
+                                <h5>35,000৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Gamdias Mars M1 Mid Tower Gaming Casing</p>
+                            <footer>
+                                <h5>5,000৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">ASRock B560M Steel Legend 10th and 11th Gen Micro ATX Motherboard</p>
+                            <footer>
+                                <h5>14,500৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">TEAM NIGHT HAWK UD 8GB 3200MHz RGB DDR4 Desktop RAM</p>
+                            <footer>
+                                <h5>5,900৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/13.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Antec NX220 Mid Tower Gaming Case</p>
+                            <footer>
+                                <h5>3,550৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/14.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Razer Viper Ambidextrous Gaming Mouse</p>
+                            <footer>
+                                <h5>6,000৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/15.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">MaxGreen MG-LI-EAM-1200VA Offline UPS (Metal)</p>
+                            <footer>
+                                <h5>5,200৳
+                                </h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 products-items">
+                    <div class="card" style="width: 18rem;">
+                        <img src="fpro/16.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">EVGA GeForce GTX 1660 SUPER SC ULTRA GAMING 6GB GDDR6 Graphics Card</p>
+                            <footer>
+                                <h5>48,500৳</h5>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured-cata container mt-5">
+            <h1>Featured Category</h1>
+            <h5>Get Your Desired Product from Featured Category!</h5>
+            <div class="cata-items">
+                <div class="cata-item"><img src="cata/1.png" alt="">
+                    <p>Desktop</p>
+                </div>
+                <div class="cata-item"><img src="cata/2.png" alt="">
+                    <p>All Laptop</p>
+                </div>
+                <div class="cata-item"><img src="cata/3.png" alt="">
+                    <p>Component</p>
+                </div>
+                <div class="cata-item"><img src="cata/4.png" alt="">
+                    <p>Monitor</p>
+                </div>
+                <div class="cata-item"><img src="cata/5.png" alt="">
+                    <p>Security</p>
+                </div>
+                <div class="cata-item"><img src="cata/6.png" alt="">
+                    <p>Tablet</p>
+                </div>
+                <div class="cata-item"><img src="cata/7.png" alt="">
+                    <p>Office Equipment
+
+                    </p>
+                </div>
+                <div class="cata-item"><img src="cata/8.png" alt="">
+                    <p>Camera</p>
+                </div>
+                <div class="cata-item"><img src="cata/9.png" alt="">
+                    <p>Networking</p>
+                </div>
+                <div class="cata-item"><img src="cata/10.png" alt="">
+                    <p>Accessories</p>
+                </div>
+                <div class="cata-item"><img src="cata/11.png" alt="">
+                    <p>Software</p>
+                </div>
+                <div class="cata-item"><img src="cata/12.png" alt="">
+                    <p>Server & Storage</p>
+                </div>
+                <div class="cata-item"><img src="cata/13.png" alt="">
+                    <p>TV</p>
+                </div>
+                <div class="cata-item"><img src="cata/14.png" alt="">
+
+                    <p>AC</p>
+                </div>
+                <div class="cata-item"><img src="cata/15.png" alt="">
+                    <p>Gadget</p>
+                </div>
+                <div class="cata-item"><img src="cata/16.png" alt="">
+                    <p>Gaming</p>
+                </div>
+            </div>
 
 
 
-      </section>
+        </section>
     </main>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
