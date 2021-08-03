@@ -1,0 +1,125 @@
+.slider-img{
+    height: 300px!important;
+    width: 570px!important;
+}
+#headphone{
+    width: 500px!important;
+}
+.corsair{
+    height: 328px!important;
+}
+body{
+    background-color: #171717;
+   
+}
+.carousel{
+    color: white;
+}
+.card{
+    transition: .3s ease;
+    border: 0!important;
+
+}
+.card:hover{
+    /* box-shadow: 5px 5px 20px gray; */
+    background-color: #198754;
+    color: white;
+}
+
+.pc{
+    height: 782px!important;
+}
+.card li:hover{
+    color: #00ca6c;
+    cursor: pointer;
+}
+.products .card{
+    height: 450px;
+}
+.products .card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.products-items{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:750px) {
+    .slider-img{
+        height: 147px!important;
+    width: 175px!important;
+    }
+    
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand h4{
+    margin-bottom: 0;
+}
+.cata-items{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 100%;
+}
+.cata-item img{
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+    border-radius: 50px;
+   padding: 10px;
+}
+.cata-item img:hover{
+    border: 2px solid #198754;
+}
+.cata-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+}
+.featured-cata h5,h1{
+    color: white;
+   
+}
+.featured-cata h5{
+    margin-bottom: 30px;
+}
+.featured-cata{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cata-item p{
+    color: white;
+}
+@media screen and (max-width:1312px) and (min-width:992px) {
+
+    .cata-items{
+   
+    grid-template-columns: repeat(6, 1fr);
+    
+}
+}
+@media screen and (max-width:991px) and (min-width:688px) {
+
+    .cata-items{
+   
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+}
+@media screen and (max-width:687px) and (min-width:320px) {
+
+    .cata-items{
+   
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.featured-cata h5{
+    font-size: 12px;
+}
+}

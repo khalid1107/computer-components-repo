@@ -1,0 +1,56 @@
+          <section class="slider container mt-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                   <div class="row d-flex align-items-center justify-content-center p-5 " style="background-color: #19875438;">
+                       <div class="col-5">
+                           <h1>RTX 3090</h1>
+                           <p class="mb-5">The GeForce RTX™ 3090 is a big ferocious GPU (BFGPU) with TITAN class performance. It’s powered by Ampere—NVIDIA’s 2nd gen RTX architecture—doubling down on ray tracing and AI performance with enhanced Ray Tracing (RT) Cores, Tensor Cores, and new streaming multiprocessors. Plus, it features a staggering 24 GB of G6X memory, all to deliver the ultimate gaming experience.</p>
+                           <h5 style="color: white; cursor: pointer;" class="bg-success d-inline p-2 rounded">STARTING AT $1,499.00</h5>
+                           <br>
+                           <div class="btn btn-success mt-3">Buy Now</div>
+                       </div>
+                       <div class="col-lg-7  ">
+                        <img   src="slider/1.png" class="d-block w-100 slider-img" alt="...">
+                       </div>
+                   </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row d-flex align-items-center justify-content-center p-5 " style="background-color: #19875438;">
+                        <div class="col-5">
+                          <h1>iCUE H60i RGB PRO</h1>
+                           <p class="mb-5">The CORSAIR iCUE H60i RGB PRO XT is an all-in-one liquid CPU cooler built for both low noise operation and improved CPU cooling, with a 120mm radiator, a CORSAIR ML120 PWM fan, and 16 RGB LEDs.</p>
+                           <h5 style="color: white; cursor: pointer;" class="bg-success d-inline p-2 rounded">STARTING AT $99.99</h5>
+                           <br>
+                           <div class="btn btn-success mt-3">Buy Now</div>
+                        </div>
+                        <div class="col-lg-7   ">
+                         <img   src="slider/2.png" class="d-block w-100 slider-img corsair" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row d-flex align-items-center p-5 " style="background-color: #19875438;">
+                        <div class="col-5">
+                            <h1>G733 GAMING HEADSET</h1>
+                            <p class="mb-5">Finally, a headset that can be as expressive as you. G733 is wireless and designed for comfort. And it’s outfitted with all the surround sound, voice filters, and advanced lighting you need to look, sound, and play with more style than ever.</p>
+                            <h5 style="color: white; cursor: pointer;" class="bg-success d-inline p-2 rounded">STARTING AT $129.99</h5>
+                            <br>
+                           <div class="btn btn-success mt-3">Buy Now</div>
+                        </div>
+                        <div class="col-7 w-50 d-flex justify-content-center ">
+                         <img id="headphone"  src="slider/3.png" class="d-block w-100 slider-img corsair"  alt="...">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </section>
