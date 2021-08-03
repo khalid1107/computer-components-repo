@@ -5,8 +5,12 @@
 #headphone{
     width: 500px!important;
 }
+
 .corsair{
     height: 328px!important;
+}
+.carousel{
+    padding-top: 70px;
 }
 body{
     background-color: #171717;
