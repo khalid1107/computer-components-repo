@@ -12,12 +12,17 @@
 </head>
 
 <body>
-
+    <!-------
+         header section star 
+    ------->
     <header>
+        <!--------
+             nav start from here  
+             ------>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="2.png" alt="" width="80" height="80">
-                    <h4>Game Snap</h4>
+                    <h4 style="color: wheat;">Game Snap</h4>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -26,31 +31,32 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                All
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Price Filter</a>
+                            <a class="nav-link active" href="#trand"><span
+                                    style="color: rgb(232, 156, 17);">Tranding</span> </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Today's Deals</a>
+                            <a class="nav-link active" href="#item">Essentials Items</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Customer Service</a>
+                            <a class="nav-link active" href="#pre-build"><span
+                                    style="color: rgb(242, 184, 70);">Pre-built
+                                    PCs</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Featured-Products">Featured Products
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Featured-Category"><span
+                                    style="color: rgb(238, 195, 114);">Featured
+                                    Category</span>
+                            </a>
                         </li>
 
                     </ul>
@@ -61,8 +67,14 @@
                 </div>
             </div>
         </nav>
+        <!--------
+             nav end there  
+             --------->
 
-        <section class="container carousel">
+        <!-------------------
+            carousel/pictuer slider section 
+            ------------------>
+        <section class="container carousel" id="trand">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -132,10 +144,24 @@
                 </button>
             </div>
         </section>
+        <!------------
+            carousel section end there
+            ---------->
     </header>
+    <!---------------
+        header section end 
+        -------->
+
+
+    <!------- 
+            main section start
+              ------------->
     <main>
-        <section class=" container mt-5">
-            <h2 class="mb-5" style="color: white;">Essentials for Gamers </h2>
+        <!-------------
+            Essentials for Gamers section start  
+            --------->
+        <section class=" container mt-5" id="item">
+            <h2 class="mb-5" style="color: white;"><span style="color: orange;">Essentials</span> for Gamers </h2>
             <div class="card-items gy-5  row justify-content-center ">
                 <div class="col-lg-3 col-md-6 products-items">
                     <div class="card border-0" style="width: 18rem;">
@@ -184,8 +210,16 @@
 
             </div>
         </section>
-        <section class="container mt-5">
-            <h2 style="color: white;">Pre-built PCs</h2>
+        <!------------
+            Essentials for Gamers section end  
+            ------------>
+
+
+        <!-------------
+            pre-build pcs section start  
+            ---------->
+        <section class="container mt-5" id="pre-build">
+            <h2 style="color: white;" class="Pre-build"><span style="color: orange;">Pre-built</span> PCs</h2>
             <div class="pre-built row gy-5">
                 <div class="col-lg-3 col-md-6 products-items">
                     <div class="card pc" style="width: 18rem;">
@@ -279,8 +313,18 @@
 
             </div>
         </section>
-        <section class="products container mt-5">
-            <h2 style="color: white;">Featured Products</h2>
+        <!----------
+             pre-build pcs section end 
+            --------->
+
+
+
+        <!-----------
+            Featured-Products section start  
+            ---------->
+        <section class="products container mt-5" id="Featured-Products">
+            <h2 style="color: white;" class="Featured-Products"><span style="color: orange;">Featured </span> Products
+            </h2>
             <div class="row gy-5">
                 <div class="col-lg-3 col-md-6 products-items">
                     <div class="card" style="width: 18rem;">
@@ -466,8 +510,20 @@
                 </div>
             </div>
         </section>
-        <section class="featured-cata container mt-5">
-            <h1>Featured Category</h1>
+        <!---------------
+            Featured-Products section end  
+            ---------->
+
+
+
+
+
+        <!-----------
+            Featured-Category section start 
+            ------------>
+        <section class="featured-cata container mt-5" id="Featured-Category">
+            <h1 style="color: orange;">Featured Category</h1>
+            <hr>
             <h5>Get Your Desired Product from Featured Category!</h5>
             <div class="cata-items">
                 <div class="cata-item"><img src="cata/1.png" alt="">
@@ -526,10 +582,16 @@
 
 
         </section>
+        <!-----------
+            Featured-Category section end 
+            ------------>
     </main>
+    <!---------
+        main section end here  
+        --------->
 
 
-
+    <!-- script code improt from bootstrap5  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>

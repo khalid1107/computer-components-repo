@@ -40,6 +40,14 @@ body{
 .products .card{
     height: 450px;
 }
+.Featured-Products{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.Pre-build{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
 .products .card .card-body{
     display: flex;
     flex-direction: column;
@@ -48,6 +56,11 @@ body{
 .products-items{
     display: flex;
     justify-content: center;
+}
+hr{
+    color: orange;
+    border: 1px solid orange;
+    width: 200px;
 }
 @media screen and (max-width:750px) {
     .slider-img{
